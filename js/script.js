@@ -1,4 +1,3 @@
-//Global Variables
 var player1, player2;
 //Back-End Logic
 //Constructor function for a player
