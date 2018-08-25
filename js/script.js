@@ -106,10 +106,10 @@ $(document).ready(function () {
             resetFields();
         });
         $('#gamingArea').show();
-        
+
         var gamer1 = $("#player1Name").val();
         var gamer2 = $("#player2Name").val();
-        //Put the names into an object using the constructor Players.
+        
         player1 = new Player(gamer1);
         player2 = new Player(gamer2);
         //Output the names into each appropriate section
