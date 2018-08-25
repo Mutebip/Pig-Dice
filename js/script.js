@@ -118,9 +118,9 @@ $(document).ready(function () {
         resetFields();
     });
 
-    $('.roll1').click(function (event) { 
+    $('.roll1').click(function (event) {
         event.preventDefault();
-        //Activate Gaming Area
+        
         player1.active = true;
         player2.active = false;
         player1.roll(); //call the function to generate random numbers
