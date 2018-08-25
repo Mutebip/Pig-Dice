@@ -115,9 +115,9 @@ $(document).ready(function () {
 
         $(".player1NameOutput").text(player1.name);
         $(".player2NameOutput").text(player2.name);
-        resetFields(); 
+        resetFields();
     });
-    //Display dice roll number and turn total when the roll button is clicked
+    
     $('.roll1').click(function (event) { //roll button for player1
         event.preventDefault();
         //Activate Gaming Area
