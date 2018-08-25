@@ -99,14 +99,14 @@ $(document).ready(function () {
         $("#rulesDefinitions").hide();
         $("form").hide();
         $(".newGame").show();
-        $(".newGame").click(function () { 
+        $(".newGame").click(function () {
             $("form").show();
             $('#gamingArea').hide();
             $(".newGame").hide();
             resetFields();
         });
         $('#gamingArea').show();
-        //Store the players names in variables.
+        
         var gamer1 = $("#player1Name").val();
         var gamer2 = $("#player2Name").val();
         //Put the names into an object using the constructor Players.
