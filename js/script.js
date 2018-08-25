@@ -30,7 +30,7 @@ Player.prototype.roll = function () {
     if (randomNo === 1) {
         this.turnTotal = 0;
         this.diceRoll = 1;
-        if (this.active === player1.active) { 
+        if (this.active === player1.active) {
             player1.active = false;
             player2.active = true;
             $('.player1Area').children().prop('disabled', true);
@@ -53,7 +53,7 @@ Player.prototype.roll = function () {
     };
     return this.diceRoll;
 };
-//Function on what is to happen when a player holds the game.
+
 Player.prototype.hold = function () {
     activeUser();
     this.overallScore += this.turnTotal;
