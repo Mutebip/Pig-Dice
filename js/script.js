@@ -93,13 +93,13 @@ $(document).ready(function () {
     $("#rulesHeader").click(function () {
         $("#rulesDefinitions").toggle();
     });
-    
+
     $("#playerNames").submit(function (event) {
         event.preventDefault();
         $("#rulesDefinitions").hide();
         $("form").hide();
         $(".newGame").show();
-        $(".newGame").click(function () { //Makes the 'New Game' title clickeable and the form reappear.
+        $(".newGame").click(function () { 
             $("form").show();
             $('#gamingArea').hide();
             $(".newGame").hide();
