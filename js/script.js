@@ -109,10 +109,10 @@ $(document).ready(function () {
 
         var gamer1 = $("#player1Name").val();
         var gamer2 = $("#player2Name").val();
-        
+
         player1 = new Player(gamer1);
         player2 = new Player(gamer2);
-        //Output the names into each appropriate section
+        
         $(".player1NameOutput").text(player1.name);
         $(".player2NameOutput").text(player2.name);
         resetFields(); //Clear the form input fields
