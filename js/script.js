@@ -123,8 +123,8 @@ $(document).ready(function () {
 
         player1.active = true;
         player2.active = false;
-        player1.roll(); 
-        $('.diceRoll1').text(player1.diceRoll); //display the rolled dice number
+        player1.roll();
+        $('.diceRoll1').text(player1.diceRoll); 
         $('.turnScore1').text(player1.turnTotal); //display the turn score (temporary score)
     });
     $('.roll2').click(function (event) { //roll button for player2
