@@ -24,13 +24,13 @@ function activeUser() {
 };
 
 Player.prototype.roll = function () {
-    var randomNo = Math.floor((Math.random() * 6) + 1); 
+    var randomNo = Math.floor((Math.random() * 6) + 1);
     this.diceRoll = randomNo;
     activeUser();
     if (randomNo === 1) {
         this.turnTotal = 0;
         this.diceRoll = 1;
-        if (this.active === player1.active) { //disable and enable gaming areas when dice is a 1 according to which player is active.
+        if (this.active === player1.active) { 
             player1.active = false;
             player2.active = true;
             $('.player1Area').children().prop('disabled', true);
