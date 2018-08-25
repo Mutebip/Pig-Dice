@@ -90,10 +90,10 @@ function resetFields() {
 };
 
 $(document).ready(function () {
-    $("#rulesHeader").click(function () { 
+    $("#rulesHeader").click(function () {
         $("#rulesDefinitions").toggle();
     });
-    //Actions when player enters name
+    
     $("#playerNames").submit(function (event) {
         event.preventDefault();
         $("#rulesDefinitions").hide();
