@@ -90,7 +90,7 @@ function resetFields() {
 };
 
 $(document).ready(function () {
-    $("#rulesHeader").click(function () { //Makes the 'Rules' title clickeable and the rules themselves hideable.
+    $("#rulesHeader").click(function () { 
         $("#rulesDefinitions").toggle();
     });
     //Actions when player enters name
