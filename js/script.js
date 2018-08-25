@@ -24,7 +24,7 @@ function activeUser() {
 };
 
 Player.prototype.roll = function () {
-    var randomNo = Math.floor((Math.random() * 6) + 1); //Random no generator from 1-6.
+    var randomNo = Math.floor((Math.random() * 6) + 1); 
     this.diceRoll = randomNo;
     activeUser();
     if (randomNo === 1) {
