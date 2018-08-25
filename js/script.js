@@ -117,8 +117,8 @@ $(document).ready(function () {
         $(".player2NameOutput").text(player2.name);
         resetFields();
     });
-    
-    $('.roll1').click(function (event) { //roll button for player1
+
+    $('.roll1').click(function (event) { 
         event.preventDefault();
         //Activate Gaming Area
         player1.active = true;
