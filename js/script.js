@@ -112,10 +112,10 @@ $(document).ready(function () {
 
         player1 = new Player(gamer1);
         player2 = new Player(gamer2);
-        
+
         $(".player1NameOutput").text(player1.name);
         $(".player2NameOutput").text(player2.name);
-        resetFields(); //Clear the form input fields
+        resetFields(); 
     });
     //Display dice roll number and turn total when the roll button is clicked
     $('.roll1').click(function (event) { //roll button for player1
