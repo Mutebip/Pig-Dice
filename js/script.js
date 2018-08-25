@@ -68,7 +68,7 @@ Player.prototype.hold = function () {
     console.log('the turn total is: ' + this.turnTotal);
     return this.overallScore;
 };
-//Function to reset the form input fields, re-enable the buttons, remove the opacity from the gaming area and reset the scores to 0.
+
 function resetFields() {
     $("input#player1Name").val("");
     $("input#player2Name").val("");
