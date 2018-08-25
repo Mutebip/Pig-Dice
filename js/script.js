@@ -88,7 +88,7 @@ function resetFields() {
     })
 
 };
-//Front End Logic
+
 $(document).ready(function () {
     $("#rulesHeader").click(function () { //Makes the 'Rules' title clickeable and the rules themselves hideable.
         $("#rulesDefinitions").toggle();
