@@ -120,10 +120,10 @@ $(document).ready(function () {
 
     $('.roll1').click(function (event) {
         event.preventDefault();
-        
+
         player1.active = true;
         player2.active = false;
-        player1.roll(); //call the function to generate random numbers
+        player1.roll(); 
         $('.diceRoll1').text(player1.diceRoll); //display the rolled dice number
         $('.turnScore1').text(player1.turnTotal); //display the turn score (temporary score)
     });
